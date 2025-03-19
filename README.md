@@ -1,16 +1,37 @@
-# elderly_care
+# 🏥 Seniority Safety App
 
-A new Flutter project.
+A **mobile application** designed to enhance the safety, health, and well-being of senior citizens. The app provides **real-time location tracking, emergency assistance, medicine reminders, and a donation system** to support elderly care.
 
-## Getting Started
+## 📌 Features
 
-This project is a starting point for a Flutter application.
+- **📍 Live Location Tracking:** 24/7 GPS monitoring using **Google Maps API** to help caregivers track elderly movements.
+- **🔔 Medicine & Appointment Reminders:** Automated alerts for medication and doctor visits via **Firebase Cloud Messaging (FCM)**.
+- **📞 Emergency Call Button:** Quick access to emergency contacts with **Twilio API** for instant SMS/calls.
+- **💳 Donation System:** Allows users to donate to old-age homes using **Razorpay/PayPal API**.
+- **🎙️ Audio Notes:** Caretakers and elderly can send voice messages for better communication.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Frontend:** Java/Kotlin (Android)  
+- **Backend:** Node.js, Firebase  
+- **Database:** Firebase Realtime Database / PostgreSQL  
+- **APIs Used:**  
+  - **Google Maps API** (Location tracking)  
+  - **Twilio API** (Emergency calls & SMS)  
+  - **Firebase Cloud Messaging** (Push notifications)  
+  - **Razorpay/PayPal API** (Donation system)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+
+### Prerequisites
+- Android Studio (for mobile development)
+- Node.js & npm (for backend services)
+- Firebase account for real-time database and notifications
+- API keys for Google Maps, Twilio, and Razorpay/PayPal
+
+### Installation
+
+1. **Clone the repository**  
+   ```sh
+   git clone https://github.com/your-username/Seniority-Safety-App.git
+   cd Seniority-Safety-App
